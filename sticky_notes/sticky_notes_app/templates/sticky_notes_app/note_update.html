@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Update Note</title>
+</head>
+<body>
+    <h2>Update Note</h2>
+
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Update</button>
+    </form>
+
+    <br>
+    <a href="{% url 'note_list' %}">Back to Notes</a>
+</body>
+</html>

@@ -1,0 +1,7 @@
+Manual Testing Performed:
+
+1. Home page loads successfully.
+2. User can navigate to task list.
+3. User can create a new task.
+4. Created task appears in task list.
+5. Application runs without crashes.
